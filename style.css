@@ -1,0 +1,14 @@
+body > h1{
+    text-align: center;
+}
+.box{
+    margin: auto;
+    max-width: 70%;
+    background-color: #F8F9FA;
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+    padding: 50px;
+}
+.btn{
+    margin-top: 10px;
+}

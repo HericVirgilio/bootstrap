@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário Bootstrap</h1>
+    <div class="box" id="box" >
+        <form id="idForm">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="idName"       aria-describedby="emailHelp" placeholder="Nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Idade</label>
+                <input type="number" class="form-control" id="idAge" aria-describedby="emailHelp" placeholder="Idade" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Data de nascimento</label>
+                <input type="date" class="form-control" id="idBirth" aria-describedby="emailHelp">
+            </div>
+                <label>Escolha a sua Unidade</label>
+                <select class="form-select" aria-label="Default select example">
+                <option selected>Escolha sua Unidade</option>
+                <option value="1">Vitoria da Conquista</option>
+                <option value="2">Itabuna</option>
+                <option value="3">Feira de Santana</option>
+                <option value="4">Salvador</option>
+                </select>
+            <button type="submit" onclick="enviar()" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    <script src="sctript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
